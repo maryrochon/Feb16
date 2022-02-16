@@ -1,0 +1,86 @@
+* {
+   margin: 50px;
+    /* can put just margin if wanting all four */
+}
+
+h1{
+    color: rgb(3, 20, 250);
+}
+body{
+    background: rgb(232, 245, 252) 
+}
+
+#container {
+    background: rgba(173, 218, 248, 0.788);
+    border-style: dashed;
+    border-color: rgb(69, 5, 245);
+    border-width: 8px;
+    width: 300px;
+    color: rgb(1, 17, 245);
+}
+
+#shape {
+    height: 50px;
+    width: 500px;
+    background: rgba(173, 218, 248, 0.788);
+    color: rgb(4, 120, 253);
+    border-radius: 20px;
+}
+
+#circle {
+    height: 200px;
+    width: 200px;
+    background: blueviolet;
+    border-radius: 200px; /*makes round shapes*/
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:rgb(3, 145, 155)
+}
+
+a:hover{
+    color: rgb(225, 1, 255);
+    text-decoration: none;
+}
+
+img {
+    width: 462px;
+    height: 693px;
+}
+.desktop {
+    width: 352.125px;
+    height: 234.875px;
+}
+
+.first {
+    width: 231px;
+    height: 346.5px;
+}
+.caption {
+    font-size: 10px;
+    color: rgb(70, 158, 187);
+    background: white;
+    text-decoration: underline;
+}
+
+.process {
+    color: rgb(13, 0, 128);
+    background: rgb(236, 245, 248);
+    text-transform: capitalize; /* uppercase, lowercase, capitalize */
+    line-height: 1px; /* changes distance between line. can set to normal, in px value*/
+    letter-spacing: 15px; /* changes tracking. can set to normal, in px value */
+    font-size: 14px;
+}
+
+h3 {
+    color: blue;
+}
+
+.screenshots{
+    width:334.6px;
+    height:182px;
+}
